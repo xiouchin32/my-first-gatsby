@@ -5,12 +5,12 @@ import "../styles/App.scss";
 
 const IndexPage = () => {
     return (
-        <main>
-            <title>Home Page</title>
-            <Layout />
-            <h1>Welcome to my Gatsby site!</h1>
-            <Link to="/about">Learn About Me &rarr;</Link>
-        </main>
+        <Layout>
+            <>
+                <title>Home Page</title>
+                <h1>Home Page</h1>
+            </>
+        </Layout>
     );
 };
 
